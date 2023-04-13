@@ -1,89 +1,67 @@
-.navbar-container {
+.headerMainDiv {
+  height: 10vh;
+  padding: 10px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-}
-.header-logo {
-  height: 35px;
-  width: 150px;
-  margin: 20px;
-  margin-left: 50px;
-}
-.profile-logo {
-  height: 40px;
-  width: 40px;
-  margin: 20px;
-}
-.logout-button-light {
-  border: solid #3b82f6 1px;
-  color: #3b82f6;
-  height: 36px;
-  width: 100px;
-  background-color: transparent;
-  margin: 20px 20px 20px 0;
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-}
-.logout-button-dark {
-  cursor: pointer;
-  border: solid #ffffff 1px;
-  color: #ffffff;
-  height: 36px;
-  width: 100px;
-  background-color: transparent;
-  margin: 20px 20px 20px 0;
-  font-weight: bold;
-  font-size: 16px;
-}
-.icons-header {
-  height: 30px;
-  width: 30px;
-}
-.dark-back {
-  background-color: #181818;
-}
-.white {
-  color: #ffffff;
-}
-.button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-.popup-container {
   background-color: #ffffff;
-  height: 200px;
-  width: 350px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #00306e;
-  font-weight: 500;
-  font-size: 18px;
+  width: 90vw;
+  list-style-type: none;
+  padding-left: 0px;
 }
-.btn {
-  height: 40px;
+body {
+  margin: 0px;
+  margin-top: 0px;
+}
+.quantity-controller-icon1 {
+  color: #ffffff;
+}
+li {
+  list-style-type: none;
+}
+.img2 {
   width: 100px;
-  margin-left: 20px;
-  margin-right: 10px;
-  border-radius: 5px;
+}
+.div1 {
+  display: flex;
+  width: 8vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.button1 {
+  background-color: transparent;
+  height: 34px;
+  width: 110px;
+  border-width: 0px;
+  border-radius: 8px;
+  color: blue;
   font-weight: bold;
+  font-family: Roboto;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: blue;
   cursor: pointer;
 }
-.cancel-button {
+.div5 {
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.button3 {
   background-color: transparent;
-  border: solid #cbd5e1 1px;
-  color: #cbd5e1;
+  border-width: 0px;
+  font-size: 30px;
+  cursor: pointer;
 }
-.confirm-button {
-  background-color: #3b82f6;
-  color: #ffffff;
-  border: none;
-}
-.darkTheme {
-  background-color: #212121;
-  color: #ffffff;
+.img6 {
+  width: 30px;
 }

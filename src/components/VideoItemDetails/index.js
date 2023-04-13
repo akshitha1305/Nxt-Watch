@@ -1,11 +1,14 @@
 import {Component} from 'react'
 import Header from '../Header'
 import SideBar from '../SideBar'
-import TrendingBody from '../TrendingBody'
+import VideoItemBody from '../VideoItemBody'
 import './index.css'
 
 class Trending extends Component {
   render() {
+    const {match} = this.props
+    const {params} = match
+    const {id} = params
     return (
       <>
         <ul>
@@ -13,8 +16,8 @@ class Trending extends Component {
         </ul>
         <div className="homeMainDiv">
           <SideBar />
-          <div>
-            <TrendingBody />
+          <div className="videoItem">
+            <VideoItemBody id={id} />
           </div>
         </div>
       </>
